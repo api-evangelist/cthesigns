@@ -1,7 +1,17 @@
 aid: cthesigns
-name: Cthesigns
-description: Cthesigns is a company surfaced as a portfolio company of khosla-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: C the Signs
+description: >-
+  C the Signs is a London-based healthcare technology company, founded in 2016 by
+  Dr Bea Bakshi and Dr Miles Payling, that uses artificial intelligence to help
+  clinicians detect and refer patients at risk of cancer at the earliest, most
+  treatable stage. Registered as an MHRA Class I medical device, its clinical
+  decision support platform analyzes more than 1,000 validated, evidence-based
+  data points across signs, symptoms and risk factors to recommend the right
+  investigations or urgent referrals in under 60 seconds. The platform is used
+  widely across the UK's NHS and health systems, has helped identify over 70,000
+  patients with cancer across 100+ cancer types at reported 99% sensitivity, and
+  is backed by an $8M Series A investment from Khosla Ventures. It has no public
+  developer API; this profile tracks the company as an API Evangelist network lead.
 url: https://raw.githubusercontent.com/api-evangelist/cthesigns/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,30 @@ x-backed-by:
 - khosla-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/6835b4acc23dc9ae3af0bfbe/685e805ce4decbac2b595d9c_fav_large.png
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Cancer Detection
+- Clinical Decision Support
+- Medical Device
+- Digital Health
+- NHS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cthesigns-domain-security.yml
 - type: Website
   url: https://www.cthesigns.com/
+- type: Blog
+  url: https://www.cthesigns.com/media-centre/news
+- type: Support
+  url: https://www.cthesigns.com/contact
+- type: TermsOfService
+  url: https://www.cthesigns.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.cthesigns.com/privacy
+- type: Login
+  url: https://app.cthesigns.co.uk/app
+- type: LinkedIn
+  url: https://www.linkedin.com/company/c-the-signs
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
